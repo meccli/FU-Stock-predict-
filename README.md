@@ -79,6 +79,9 @@ model.add(Dense(units=1))
 model.compile(optimizer='adam', loss='mean_squared_error')
 model.fit(x_train, y_train, epochs=25, batch_size=32)
 ```
+Как мы можем наблюдать, с каждым разом LOSS снижается.
+![image](https://user-images.githubusercontent.com/56271529/122275699-ad4c6200-ceec-11eb-86b4-feac0c3f2436.png)
+
 
 # Проверка на исторических данных
 
